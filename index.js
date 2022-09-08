@@ -23,7 +23,7 @@ Do the following:
 const votingAge = 18;
 
 if (votingAge >= 18){
-  console.log('task 1 a:1' true);
+  console.log('task 1 a:1', true);
 }else{
   console.log(false)
 }
@@ -74,7 +74,7 @@ function multiply(a,b){
   return a * b;
 }
 
-console.log('task 1 d:' multiply(9,9));
+console.log('task 1 d:', multiply(9,9));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -196,7 +196,7 @@ if(computer <= 0.34){
 function game(user, computer){
   if(user === computer){
     return 'its a tie';
-  }else if( user === 'rock' && computer = 'scissors'){
+  }else if( user === 'rock' && computer === 'scissors'){
     return 'you win!';
   }else if(user === 'paper' && computer === 'rock'){
     return 'you win!'
